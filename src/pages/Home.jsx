@@ -47,7 +47,7 @@ export function App() {
         <p>O diferencial do SunTech é a combinação de praticidade, tecnologia e proteção solar, oferecendo uma solução completa em comparação a outros produtos que podem oferecer apenas uma parte desses elementos.</p>
       </div>
 
-      <div className='flex justify-center bg-red-800 font-bold'>
+      <div className='flex justify-center bg-red-800'>
         <p>SunTech @2024</p>
       </div>
 
