@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face{
+    font-family: "super-ocean";
+    src: url("/public/super_ocean.ttf");
+}
