@@ -3,26 +3,28 @@ import Sol from '/whiteSun.svg'
 import IconPerson from '/personIcon.svg'
 import Lampada from '/ideiaIcon.svg'
 import Alvo from '/alvo.svg'
-import fund from '/backgroundImage.svg'
 
-export function App() {
+export function Home() {
   return (
 
     <section className='bg-sand'>
-      <div className='bg-gray-500 flex mb-20 uppercase font-medium text-4xl px-8 list-none text-white'>
-        <img src={Sol} alt="" />
+      <div className='bg-Background bg-cover h-svh w-svw'>
+        <div className='flex mb-20 uppercase font-medium text-4xl px-8 list-none text-white'>
+          <img src={Sol} alt="" className='size-24'/>
        
-        <li className='ml-80 my-8'><a href="./Home.jsx">O projeto</a></li>
-        <li className='mx-20 my-8'><a href="./Guia.jsx">Guia</a></li>
-        <li className='mx-20 my-8'><a href="./Peças.jsx">Peças</a></li>
-        <li className='mx-20 my-8'><a href="./Referencias.jsx">Referencias</a></li>
-        <li className='mx-20 my-8'><a href="./Equipe.jsx">Equipe</a></li>
+          <li className='ml-80 my-8'><a href="/">O projeto</a></li>
+          <li className='mx-20 my-8'><a href="/Guia">Guia</a></li>
+          <li className='mx-20 my-8'><a href="/Peças">Peças</a></li>
+          <li className='mx-20 my-8'><a href="/Referencias">Referencias</a></li>
+          <li className='mx-20 my-8'><a href="/Equipe">Equipe</a></li>
+        </div>
+
+        <div className='flex flex-col mb-20 items-center text-white'>
+          <h1 className='pb-8 text-9xl font-bold'>SunTech</h1>
+          <p>Cuidar da pele e aproveitar o sol nunca foi tão fácil.</p>
+        </div>
       </div>
 
-      <div className='flex flex-col mb-20 items-center text-slate-400'>
-        <h1 className='pb-8 text-6xl font-bold'>SunTech</h1>
-        <p>Cuidar da pele e aproveitar o sol nunca foi tão fácil.</p>
-      </div>
 
       <div className='flex flex-col mb-20 items-center text-blue-900'>
         <h2 className='text-4xl my-8 font-bold'>O Projeto</h2>
@@ -47,8 +49,8 @@ export function App() {
         <p>O diferencial do SunTech é a combinação de praticidade, tecnologia e proteção solar, oferecendo uma solução completa em comparação a outros produtos que podem oferecer apenas uma parte desses elementos.</p>
       </div>
 
-      <div className='flex justify-center bg-red-800'>
-        <p>SunTech @2024</p>
+      <div className='flex justify-center bg-red-800 font-bold text-white'>
+                <p className=''>SunTech @2024</p>
       </div>
 
     </section>

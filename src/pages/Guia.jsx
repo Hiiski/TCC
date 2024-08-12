@@ -2,21 +2,18 @@ import red from '/solvermei.svg'
 import you from '/youtube.svg'
 import jogo from '/volei.svg'
 
-
-
-
-
-export default function Guia() {
+export function Guia() {
   return (
-    <section>
-        <div className = 'bg-gray-500 flex mb-80 uppercase font-medium text-4xl px-8 list-none'>
-            <img src= {red} alt="" />
-            <li className='p-2'><a href="">O projeto</a></li>
-            <li className='p-2'><a href="">Guia</a></li>
-            <li className='p-2'><a href="">Peças</a></li>
-            <li className='p-2'><a href="">Referencias</a></li>
-            <li className='p-2'><a href="">Equipe</a></li>
-        </div>
+    <section className='bg-sand'>
+      <div className='bg-gray-500 flex mb-20 uppercase font-medium text-4xl px-8 list-none text-white'>
+        <img src={red} alt="" />
+       
+        <li className='ml-80 my-8'><a href="/">O projeto</a></li>
+        <li className='mx-20 my-8'><a href="/Guia">Guia</a></li>
+        <li className='mx-20 my-8'><a href="/Peças">Peças</a></li>
+        <li className='mx-20 my-8'><a href="/Referencias">Referencias</a></li>
+        <li className='mx-20 my-8'><a href="/Equipe">Equipe</a></li>
+      </div>
 
         <div>
             <h2>Guia de Utilização</h2>
@@ -32,9 +29,10 @@ export default function Guia() {
             <img src={jogo} alt="" />
         </div>
 
-        <div>
-            <p>SunTech @2024</p>
+        <div className='flex justify-center bg-red-800 font-bold text-white'>
+            <p className=''>SunTech @2024</p>
         </div>
+
     
     </section>
   )

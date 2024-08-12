@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'Background': "url('./public/backgroundImage.svg')"
+        'Background': "url('./public/backGroundImage.png')"
       },
       colors: {
         'sand': '#F4E5CF',
