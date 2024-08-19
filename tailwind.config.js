@@ -37,12 +37,14 @@ export default {
 
       fontSize: {
         plus: '163px',
-        quarenta: '40px'
+        quarenta: '40px',
+        43: '43px'
       },
 
       spacing: {
         900: '900px',
         525: '525px',
+        650: '650px',
         70: '70px'
       },
 

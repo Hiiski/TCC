@@ -15,34 +15,40 @@ export function ReferenciasMobile() {
             </header>
 
             <header className='flex justify-between items-center h-40 mx-12 max-lg:hidden'>
-                <div className='flex'>
-                    <img className='size-20' src={red} alt="" />
-                    <h2 className='font-super-ocean text-4xl ml-4 gap-4 flex self-center'>Referências Bibliográficas</h2>
+                <div className='flex mt-10'>
+                    <img className='size-16' src={red} alt="" />
+                    <h2 className='max-lg:text-xl font-super-ocean text-4xl ml-4 gap-4 flex self-center'>Referências Bibliográficas</h2>
                 </div>
 
-                <div className='flex justify-around max-xl:text-xl list-none w-4/6 xl:text-3xl'>
-                    <li className='underline underline-offset-8 uppercase underline hover:decoration-dark-red'><Link to='/'>O projeto</Link></li>
-                    <li className='underline underline-offset-8 uppercase underline hover:decoration-dark-red'><Link to='/Guia'>Guia</Link></li>
-                    <li className='underline underline-offset-8 uppercase underline hover:decoration-dark-red'><Link to='/Peças'>Peças</Link></li>
-                    <li className='underline underline-offset-8 uppercase underline hover:underline decoration-dark-red'><Link to='/Referencias'>Referências</Link></li>
-                    <li className='underline underline-offset-8 uppercase underline hover:decoration-dark-red'><Link to='/Equipe'>Equipe</Link></li>
+                <div className='flex justify-end space-x-10 max-xl:text-xl list-none w-4/6 xl:text-2xl '>
+                    <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'><Link to='/'>O projeto</Link></li>
+                    <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'><Link to='/Guia'>Guia</Link></li>
+                    <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'><Link to='/Peças'>Peças</Link></li>
+                    <li className='decoration-2 underline underline-offset-8 uppercase underline decoration-dark-red'><Link to='/Referencias'>Referências</Link></li>
+                    <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'><Link to='/Equipe'>Equipe</Link></li>
                 </div>
             </header>
 
-            <section className='mx-6 lg:text-2xl lg:mx-10 xl:text-4xl'>
+            <section className='mx-6 lg:mx-40 xl:text-3xl'>
                 <div>
                     <p className='max-lg:text-sm text-justify indent-8 max-xl:lg:my-32 xl:my-20'>O câncer de pele, no Brasil, corresponde a 33% de todos os diagnósticos da doença, sendo a principal causa a exposição excessiva ao sol. Estudos exploram diferentes aspectos da exposição ao sol e do uso do protetor solar, tendo como resultado uma quantidade significativa de pessoas que fazem o uso incorreto do protetor solar; Não o utilizando pelo simples fato de esquecerem ou não saberem como funciona o uso e a ação da proteção solar.</p>
                 </div>
 
                 <div className='flex max-lg:flex-col text-balance '>
-                    <img src={boy} alt="" className='lg:hidden size-40 place-self-center' />
-                    <div className=''>
-                        <h3 className='max-xl:text-2xl font-bold'>Artigos referenciais:</h3>
+                    <div className='flex justify-center my-8'>
+                        <img src={boy} alt="" className='lg:hidden max-lg:size-42' />
+                    </div>
+
+                    <div className='max-xl:text-sm lg:text-2xl'>
+                        <h3 className='max-xl:text-xl lg:text-3xl mb-7 font-bold'>Artigos referenciais:</h3>
                         <p className='mt-2 break-all'>https://ojs.brazilianjournals.com.br/ojs/index.php/BRJD/article/view/21841</p>
                         <p className='my-4 break-all'>https://periodicos.puc-campinas.edu.br/cienciasmedicas/article/view/1050</p>
                         <p className='break-all'>https://sea.ufr.edu.br/index.php/SEA/article/view/1786</p>
                     </div>
-                    <img src={boy} alt="" className='max-lg:hidden size-96 place-self-end' />
+
+                    <div className='flex items-end'>
+                        <img src={boy} alt="" className='max-lg:hidden size-80 place-self-end' />
+                    </div>
                 </div>
             </section>
 
