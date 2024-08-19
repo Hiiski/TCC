@@ -38,6 +38,7 @@ export default {
       fontSize: {
         plus: '163px',
         quarenta: '40px',
+        26: '26px',
         43: '43px'
       },
 
@@ -45,7 +46,12 @@ export default {
         900: '900px',
         525: '525px',
         650: '650px',
-        70: '70px'
+        70: '70px',
+        457: '457px',
+        740: '740px',
+        375: '325px',
+        225: '175px'
+
       },
 
       dropShadow: {

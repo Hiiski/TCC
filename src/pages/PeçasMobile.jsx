@@ -40,7 +40,7 @@ export function PeçasMobile() {
                     <div className='my-2 mt-0.5'>
                         <h2 className='uppercase text-white text-xl ml-4 mt-2'>Bomba Peristáltica</h2>
                         <img className='size-64 flex itens-center ml-1 h-40 my-9' src={bomb} alt="" />
-                        <p className='uppercase text-white ml-4 mb-2'>R$69,90</p>
+                        <p className='uppercase text-white ml-4 mb-2 '>R$69,90</p>
                     </div>
                 </section>
 

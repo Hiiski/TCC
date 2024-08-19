@@ -6,7 +6,7 @@ import MenuRed from '/menu_red.svg'
 
 export function ReferenciasMobile() {
     return (
-        <main className='text-dark-blue font-alata bg-sand max-lg:h-screen lg:h-full xl:h-screen  w-screen'>
+        <main className='text-dark-blue font-alata bg-sand h-full 2xl:h-screen xl:h-full h-screen w-screen'>
             <header className='lg:hidden flex font-medium text-4xl px-8 list-none flex flex-col'>
                 <img className='mt-6 place-self-end size-8' src={MenuRed} alt="" />
 
@@ -34,25 +34,25 @@ export function ReferenciasMobile() {
                     <p className='max-lg:text-sm text-justify indent-8 max-xl:lg:my-32 xl:my-20'>O câncer de pele, no Brasil, corresponde a 33% de todos os diagnósticos da doença, sendo a principal causa a exposição excessiva ao sol. Estudos exploram diferentes aspectos da exposição ao sol e do uso do protetor solar, tendo como resultado uma quantidade significativa de pessoas que fazem o uso incorreto do protetor solar; Não o utilizando pelo simples fato de esquecerem ou não saberem como funciona o uso e a ação da proteção solar.</p>
                 </div>
 
-                <div className='flex max-lg:flex-col text-balance '>
-                    <div className='flex justify-center my-8'>
-                        <img src={boy} alt="" className='lg:hidden max-lg:size-42' />
-                    </div>
-
-                    <div className='max-xl:text-sm lg:text-2xl'>
-                        <h3 className='max-xl:text-xl lg:text-3xl mb-7 font-bold'>Artigos referenciais:</h3>
-                        <p className='mt-2 break-all'>https://ojs.brazilianjournals.com.br/ojs/index.php/BRJD/article/view/21841</p>
-                        <p className='my-4 break-all'>https://periodicos.puc-campinas.edu.br/cienciasmedicas/article/view/1050</p>
-                        <p className='break-all'>https://sea.ufr.edu.br/index.php/SEA/article/view/1786</p>
-                    </div>
-
-                    <div className='flex items-end'>
-                        <img src={boy} alt="" className='max-lg:hidden size-80 place-self-end' />
+                <div>
+                    <div className='block max-lg:block text-balance'>
+                        <div className='flex justify-center my-8'>
+                            <img src={boy} alt="" className='lg:hidden max-lg:size-42' />
+                        </div>
+                        <div className='flex justify-around'>
+                            <div className='max-xl:text-sm lg:text-2xl xl:'>
+                                <h3 className='max-xl:text-xl lg:text-3xl mb-6 font-bold'>Artigos referenciais:</h3>
+                                <p className='break-words'>https://periodicos.puc-campinas.edu.br/cienciasmedicas/article/view/1050</p>
+                                <p className='my-4 break-all'>https://ojs.brazilianjournals.com.br/ojs/index.php/BRJD/article/view/21841</p>
+                                <p className='mb-5 break-words'>https://sea.ufr.edu.br/index.php/SEA/article/view/1786</p>
+                            </div>
+                            <img src={boy} alt="" className='max-lg:hidden size-80 object-right' />
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <div className='flex justify-center bg-dark-red max-lg:absolute inset-x-0 bottom-0 xl:absolute inset-x-0 bottom-0'>
+            <div className='flex justify-center bg-dark-red max-sm:absolute inset-x-0 bottom-0 max-xl:sm:absolute inset-x-0 bottom-0 2xl:absolute inset-x-0 bottom-0'>
                 <p className='text-lg font-super-ocean text-white'>SunTech</p>
                 <p className='ml-1 text-base font-alata text-white'>© 2024</p>
             </div>
