@@ -12,12 +12,17 @@ export default {
       },
 
       backgroundImage: {
-        'beach': "url('/public/bg-img (3).png')"
+        'beach': "url('/bg-img.svg')",
+        'sand': "url('/bg-sand.svg')"
       },
+
       colors: {
-        'sand': '#F3EEE8',
+        'areia': '#F4E5CF',
         'dark-blue': '#002877',
+        'light-blue': '#4C6290',
+        'very-dark-blue': '#000462',
         'dark-red': '#ba0000',
+        'white' : '#ffff'
       },
 
       fontFamily: {
@@ -27,15 +32,25 @@ export default {
 
       '.underline': {
         'textDecoration': 'underline',
-        'text-decoration-color': 'dark-red',
+        'text-decoration-color': 'dark-red'
       },
 
       fontSize: {
         plus: '163px',
+        quarenta: '40px'
       },
 
       spacing: {
         900: '900px',
+        525: '525px',
+        70: '70px'
+      },
+
+      dropShadow: {
+        '4xl': [
+            '0 4px 3px rgba(0, 0, 0, 0.25)',
+            '0 2px 2px rgba(0, 0, 0, 0.15)'
+        ]
       }
     
   },
