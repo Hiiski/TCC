@@ -7,7 +7,7 @@ import MenuRed from '/menu_red.svg'
 
 export function GuiaMobile() {
   return (
-    <main className='bg-sand text-dark-blue font-alata h-screen max-lg:md:h-full xl:h-full'>
+    <main className='bg-sand text-dark-blue font-alata h-screen max-lg:md:h-full '>
       <section>
         <header className='lg:hidden flex font-medium text-4xl px-8 list-none flex flex-col'>
           <img className='mt-6 place-self-end size-8' src={MenuRed} alt="" />

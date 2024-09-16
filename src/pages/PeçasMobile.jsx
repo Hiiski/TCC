@@ -34,31 +34,34 @@ export function PeçasMobile() {
             </header>
 
 
-            <section className='flex items-center justify-around max-lg:h-2/4 lg:h-4/6'>
-                <img className='max-lg: size-11 ml-3' src={esquerda} alt="" />
-                <section className='max-lg:hidden mr-10 ml-10 bg-gradient-to-t from-very-dark-blue to-light-blue rounded-2xl flex items-center mt-6'>
-                    <div className='my-2 mt-0.5'>
-                        <h2 className='uppercase text-white text-xl ml-4 mt-2'>Bomba Peristáltica</h2>
-                        <img className='size-64 flex itens-center ml-1 h-40 my-9' src={bomb} alt="" />
-                        <p className='uppercase text-white ml-4 mb-2 '>R$69,90</p>
-                    </div>
-                </section>
+                <section className='flex items-center justify-around max-lg:h-2/4 lg:h-4/6'>
 
-                <section className='mx-5 bg-gradient-to-t from-very-dark-blue to-light-blue rounded-2xl flex mt-6'>
-                    <div className='my-2 mt-0.5'>
-                        <h2 className='uppercase text-white text-xl ml-4 mt-2'>Placa Arduino </h2>
-                        <img className='size-64 ml-1 lg:h-40 max-lg:h-36 my-9' src={arduino} alt="" />
-                        <p className='uppercase text-white ml-4 mb-2'>R$99,90</p>
-                    </div>
-                </section>
+                    <img className='max-lg: size-11 ml-3' src={esquerda} alt="" />
 
-                <section className='max-lg:hidden mr-10 ml-10 bg-gradient-to-t from-very-dark-blue to-light-blue rounded-2xl flex items-center mt-6'>
-                    <div className='my-2 mt-0.5'>
-                        <h2 className='uppercase text-white text-xl ml-4 mt-2'>Sensor Ultrasônico</h2>
-                        <img className='size-64 flex itens-center ml-1 h-40 my-9' src={sensor} alt="" />
-                        <p className='uppercase text-white ml-4 mb-2'>R$9,90</p>
-                    </div>
-                </section>
+                        <section className='max-lg:hidden px-10 py-16 bg-gradient-to-t from-very-dark-blue to-light-blue rounded-2xl flex items-center mt-6'>
+                            <div className='my-2 mt-0.5'>
+                                <h2 className='uppercase text-white text-left text-xl mt-2'>Bomba Peristáltica</h2>
+                                <img className='size-64 flex itens-center ml-1 h-40 my-9' src={bomb} alt="" />
+                                <p className='uppercase text-white ml-4 mb-2 '>R$69,90</p>
+                            </div>
+                        </section>
+
+                    <section className='mx-5 bg-gradient-to-t from-very-dark-blue to-light-blue rounded-2xl flex mt-6 px-10 py-16'>
+                        <div className='my-2 mt-0.5'>
+                            <h2 className='uppercase text-white text-xl ml-4 mt-2'>Placa Arduino </h2>
+                            <img className='size-64 ml-1 lg:h-40 max-lg:h-36 my-9' src={arduino} alt="" />
+                            <p className='uppercase text-white ml-4 mb-2'>R$99,90</p>
+                        </div>
+                    </section>
+
+                    <section className='max-lg:hidden px-10 py-16 bg-gradient-to-t from-very-dark-blue to-light-blue rounded-2xl flex items-center mt-6'>
+                        <div className='my-2 mt-0.5'>
+                            <h2 className='uppercase text-white text-xl ml-4 mt-2'>Sensor Ultrasônico</h2>
+                            <img className='size-64 flex itens-center ml-1 h-40 my-9' src={sensor} alt="" />
+                            <p className='uppercase text-white ml-4 mb-2'>R$9,90</p>
+                        </div>
+                    </section>
+
                 <img className='max-lg: size-11 mr-3' src={direita} alt="" />
             </section>
 
