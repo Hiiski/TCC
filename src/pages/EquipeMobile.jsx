@@ -30,7 +30,7 @@ export function EquipeMobile() {
                 <div className='flex justify-end space-x-10 max-xl:text-xl list-none w-4/6 xl:text-2xl '>
                     <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'><Link to='/'>O projeto</Link></li>
                     <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'><Link to='/Guia'>Guia</Link></li>
-                    <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'><Link to='/Peças'>Peças</Link></li>
+                    <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'><Link to='/Pecas'>Peças</Link></li>
                     <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'><Link to='/Referencias'>Referências</Link></li>
                     <li className='decoration-2 underline underline-offset-8 uppercase underline decoration-dark-red'><Link to='/Equipe'>Equipe</Link></li>
                 </div>
@@ -43,8 +43,8 @@ export function EquipeMobile() {
                         <h3 className='font-bold mb-2'>Fernanda Leite</h3>
                         <h3 className='mb-2'>31A T.I.</h3>
                         <div className="flex justify-center">
-                            <img className='max-lg:h-8 h-10' src={insta} alt="" />
-                            <p className='ml-1'>@fefeleit_</p>
+                            <a href="https://www.instagram.com/fefeleit_?igsh=MWN5N2JucDJvYmZkOA=="><img className='max-lg:h-8 h-10' src={insta} alt="" /></a>
+                            <a href="https://www.instagram.com/fefeleit_?igsh=MWN5N2JucDJvYmZkOA=="> <p className='ml-1'>@fefeleit_</p></a>
                         </div>
                     </div>
 
@@ -53,8 +53,8 @@ export function EquipeMobile() {
                         <h3 className='font-bold mb-2'>Thyago Albino</h3>
                         <h3 className='mb-2'>31A T.I.</h3>
                         <div className="flex justify-center">
-                            <img className='max-lg:h-8 h-10' src={insta} alt="" />
-                            <p className='ml-1'>@othyaguinh</p>
+                            <a href="https://www.instagram.com/o_thygas?igsh=MTY1MnQxM3YwZjJzbw=="><img className='max-lg:h-8 h-10' src={insta} alt="" /></a>
+                            <a href="https://www.instagram.com/o_thygas?igsh=MTY1MnQxM3YwZjJzbw=="><p className='ml-1'>@othyaguinh</p></a>
                         </div>
                     </div>
 
@@ -63,8 +63,8 @@ export function EquipeMobile() {
                         <h3 className='font-bold mb-2'>Henrique Soares</h3>
                         <h3 className='mb-2'>31A T.I.</h3>
                         <div className="flex justify-center">
-                            <img className='max-lg:h-8 h-10' src={insta} alt="" />
-                            <p className='ml-1'>@hiiskikkj</p>
+                            <a href="https://www.instagram.com/hiiskikkj?igsh=MXNzMm42ZHEzb2Exeg=="><img className='max-lg:h-8 h-10' src={insta} alt="" /></a>
+                            <a href="https://www.instagram.com/hiiskikkj?igsh=MXNzMm42ZHEzb2Exeg=="><p className='ml-1'>@hiiskikkj</p></a>
                         </div>
                     </div>
                 </div>

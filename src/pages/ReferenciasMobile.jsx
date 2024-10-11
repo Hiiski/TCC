@@ -23,16 +23,16 @@ export function ReferenciasMobile() {
                         <Link to='/'>O projeto</Link>
                     </li>
                     <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'>
-                        <Link to='/guia'>Guia</Link>
+                        <Link to='/Guia'>Guia</Link>
                     </li>
                     <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'>
-                        <Link to='/pecas'>Peças</Link>
+                        <Link to='/Pecas'>Peças</Link>
                     </li>
                     <li className='decoration-2 underline underline-offset-8 uppercase underline decoration-dark-red'>
-                        <Link to='/referencias'>Referências</Link>
+                        <Link to='/Referencias'>Referências</Link>
                     </li>
                     <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'>
-                        <Link to='/equipe'>Equipe</Link>
+                        <Link to='/Equipe'>Equipe</Link>
                     </li>
                 </div>
             </header>

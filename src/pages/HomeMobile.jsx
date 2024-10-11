@@ -37,7 +37,7 @@ export function HomeMobile() {
                         <img className='size-20 my-5' src={Sol} alt="" />
                         <Link to='/'>O projeto</Link>
                         <Link to='/Guia'>Guia</Link>
-                        <Link to='/Peças'>Peças</Link>
+                        <Link to='/Pecas'>Peças</Link>
                         <Link to='/Referencias'>Referências</Link>
                         <Link to='/Equipe'>Equipe</Link>
                     </div>

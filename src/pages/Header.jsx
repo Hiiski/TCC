@@ -34,7 +34,7 @@ export default function Header() {
                             </a>
                         </li>
                         <li>
-                            <a href="/Peças" className="block text-white py-2 px-4 xl:ml-0 text-right">
+                            <a href="/Pecas" className="block text-white py-2 px-4 xl:ml-0 text-right">
                                 PEÇAS
                             </a>
                         </li>
@@ -44,7 +44,7 @@ export default function Header() {
                             </a>
                         </li>
                         <li>
-                            <a href="/Ref" className="block text-white py-2 px-4 xl:ml-0 text-right">
+                            <a href="/Referencias" className="block text-white py-2 px-4 xl:ml-0 text-right">
                                 REFERÊNCIAS
                             </a>
                         </li>
