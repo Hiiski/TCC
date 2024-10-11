@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom'
 import boy from '/menino.svg'
 import red from '/solvermei.svg'
 import MenuRed from '/menu_red.svg'
+import Header2 from './Header2'
 
 export function ReferenciasMobile() {
     return (
         <main className='text-dark-blue font-alata bg-sand h-full 2xl:h-screen xl:h-full h-screen w-screen'>
             <header className='lg:hidden flex font-medium text-4xl px-8 list-none flex flex-col'>
-                <img className='mt-6 place-self-end size-8' src={MenuRed} alt="" />
+            <Header2></Header2>
 
                 <img className=' mt-4 size-12 justify-self-center place-self-center mt-16' src={red} alt="" />
                 <h2 className='font-super-ocean text-2xl text-nowrap place-self-center mb-16 mt-4'>Referências Bibliográficas</h2>

@@ -11,6 +11,7 @@ import Menino2 from '/menino2.svg'
 import Sombrinha from '/guarda-sol.png'
 import Sombra from '/guarda-sol2.png'
 import MeninoSand from '/menino-sand.png'
+import Header from './Header'
 
 export function HomeMobile() {
     return (
@@ -19,11 +20,7 @@ export function HomeMobile() {
             <header className='md:hidden bg-beach bg-cover bg-center bg-no-repeat'>
                 <div>
                     <div className='flex flex-col items-center'>
-                        <div className='flex mt-5 space-x-56'>
-                            <img className='size-12 mt-6' src={Sol} alt="" />
-                            <img className='h-9 mt-7' src={Menu} alt="menu" />   
-                        </div>
-
+                        <Header></Header>
                         <div className='flex flex-col items-center text-white'>
                             <h1 className='font-super-ocean text-6xl mt-9'>SunTech</h1>
                             <p className='drop-shadow-4xl text-xs mb-40'>Cuidar da pele e aproveitar o sol nunca foi tão fácil.</p>

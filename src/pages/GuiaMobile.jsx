@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 
+import Header2 from './Header2'
 import red from '/solvermei.svg'
 import yout from '/youtube.svg'
 import jogo from '/volei.png'
@@ -10,7 +11,7 @@ export function GuiaMobile() {
     <main className='bg-sand text-dark-blue font-alata h-screen max-lg:md:h-full '>
       <section>
         <header className='lg:hidden flex font-medium text-4xl px-8 list-none flex flex-col'>
-          <img className='mt-6 place-self-end size-8' src={MenuRed} alt="" />
+          <Header2></Header2>
 
           <img className=' mt-4 size-12 justify-self-center place-self-center mt-16' src={red} alt="" />
           <h2 className='font-super-ocean text-3xl place-self-center mb-16 mt-4'>Guia de Utilização</h2>
@@ -47,7 +48,7 @@ export function GuiaMobile() {
         </section>
 
 
-        <div className='flex justify-center bg-dark-red max-sm:absolute inset-x-0 bottom-0 xl:absolute inset-x-0 bottom-0'>
+        <div className='flex justify-center bg-dark-red max-sm:absolute inset-x-0 bottom-0 max-xl:sm:absolute inset-x-0 bottom-0 2xl:absolute inset-x-0 bottom-0'>
           <p className='text-lg font-super-ocean text-white'>SunTech</p>
           <p className='ml-2 text-base font-alata text-white'>© 2024</p>
         </div>
