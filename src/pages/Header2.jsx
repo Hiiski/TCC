@@ -31,7 +31,7 @@ export default function Header2() {
                             </a>
                         </li>
                         <li>
-                            <a href="/Peças" className="block text-white py-2 px-4 xl:ml-0 text-right">
+                            <a href="/Pecas" className="block text-white py-2 px-4 xl:ml-0 text-right">
                                 PEÇAS
                             </a>
                         </li>
