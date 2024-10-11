@@ -91,9 +91,9 @@ export function PeçasMobile() {
                 <div className='flex justify-end space-x-10 max-xl:text-xl list-none w-4/6 xl:text-2xl '>
                     <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'><Link to='/'>O projeto</Link></li>
                     <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'><Link to='/Guia'>Guia</Link></li>
-                    <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'><Link to='/Peças'>Peças</Link></li>
+                    <li className='decoration-2 underline underline-offset-8 uppercase underline decoration-dark-red'><Link to='/Peças'>Peças</Link></li>
                     <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'><Link to='/Referencias'>Referências</Link></li>
-                    <li className='decoration-2 underline underline-offset-8 uppercase underline decoration-dark-red'><Link to='/Equipe'>Equipe</Link></li>
+                    <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'><Link to='/Equipe'>Equipe</Link></li>
                 </div>
             </header>
 

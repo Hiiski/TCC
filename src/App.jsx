@@ -18,7 +18,7 @@ const router = createBrowserRouter([
       element: <GuiaMobile />,
     },
     {
-      path: "Peças",
+      path: "Pecas",
       element: <PeçasMobile />
     },
     {
