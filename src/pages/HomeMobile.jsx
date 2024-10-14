@@ -32,7 +32,13 @@ export function HomeMobile() {
                             <h1 className='font-super-ocean text-6xl mt-9'>SunTech</h1>
                             <p className='drop-shadow-4xl text-xs mb-40'>Cuidar da pele e aproveitar o sol nunca foi tão fácil.</p>
                             
-                           
+                            {/* Botão da seta que desce o scroll */}
+                            <img 
+                                className='md:hidden size-12 mb-5 cursor-pointer ' 
+                                src={SetaBaixo} 
+                                alt="seta para baixo" 
+                                onClick={scrollToSection} // Função chamada ao clicar
+                            />
                         </div>                        
                     </div>
                 </div>
@@ -54,7 +60,12 @@ export function HomeMobile() {
                         <p className='drop-shadow-4xl text-3xl'>Cuidar da pele e aproveitar o sol nunca foi tão fácil.</p>
                         
                         {/* Botão da seta que desce o scroll */}
-                        
+                        <img 
+                            className='size-16 mt-80 cursor-pointer hover:shadow-lg hover:brightness-150 transition duration-200 scroll-smooth md:scroll-auto  ' 
+                            src={SetaBaixo} 
+                            alt="seta para baixo" 
+                            onClick={scrollToSection} // Função chamada ao clicar
+                        />
                     </div>
                 </div>
             </header>
@@ -108,7 +119,10 @@ export function HomeMobile() {
                 </section>
             </section>
 
-            
+            <div className='flex justify-center bg-dark-red mt-8'>
+                <p className='text-lg font-super-ocean text-white'>SunTech</p>
+                <p className='ml-1 text-base font-alata text-white'>© 2024</p>
+            </div>
         </main>
     )
 }

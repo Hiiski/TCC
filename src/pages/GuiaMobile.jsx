@@ -56,7 +56,10 @@ export function GuiaMobile() {
       </section>
 
       {/* Rodapé separado da estrutura principal */}
-     
+      <div className='flex justify-center bg-dark-red mt-10 lg:absolute inset-x-0 bottom-0'>
+        <p className='text-lg font-super-ocean text-white'>SunTech</p>
+        <p className='ml-2 text-base font-alata text-white'>©2024</p>
+      </div>
     </main>
   );
 }

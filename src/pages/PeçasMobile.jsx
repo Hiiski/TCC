@@ -73,7 +73,7 @@ export function PeçasMobile() {
     return (
         <main className='font-alata text-dark-blue bg-sand h-screen'>
             <header className='flex font-medium text-4xl px-8 list-none flex flex-col lg:hidden'>
-            <Header2></Header2>
+                <Header2></Header2>
 
                 <img className=' mt-4 size-12 justify-self-center place-self-center mt-16' src={red} alt="" />
                 <h2 className='font-super-ocean text-3xl text-nowrap place-self-center mb-16 mt-4'>Peças Utilizadas</h2>
@@ -84,7 +84,7 @@ export function PeçasMobile() {
                     <img className='size-16' src={red} alt="" />
                     <div className='max-lg:text-xl font-super-ocean text-43 ml-4 gap-4 flex self-center'>
                         <h2 className=''>Peças Utilizadas</h2>
-                        
+
                     </div>
                 </div>
 
@@ -103,7 +103,10 @@ export function PeçasMobile() {
                 <img className='w-10 mr-3 cursor-pointer' src={direita} alt="Seta direita" onClick={proximoSlide} />
             </section>
 
-            
+            <div className='flex justify-center bg-dark-red max-sm:absolute inset-x-0 bottom-0 xl:absolute inset-x-0 bottom-0'>
+                <p className='text-lg font-super-ocean text-white'>SunTech</p>
+                <p className='ml-2 text-base font-alata text-white'>©2024</p>
+            </div>
         </main>
     );
 }
