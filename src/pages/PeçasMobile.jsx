@@ -103,10 +103,7 @@ export function PeçasMobile() {
                 <img className='w-10 mr-3 cursor-pointer' src={direita} alt="Seta direita" onClick={proximoSlide} />
             </section>
 
-            <div className='flex justify-center bg-dark-red max-sm:absolute inset-x-0 bottom-0 xl:absolute inset-x-0 bottom-0'>
-                <p className='text-lg font-super-ocean text-white'>SunTech</p>
-                <p className='ml-2 text-base font-alata text-white'>©2024</p>
-            </div>
+            
         </main>
     );
 }
