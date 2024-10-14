@@ -39,23 +39,23 @@ export function ReferenciasMobile() {
 
             <section className='mx-6 lg:mx-40 xl:text-3xl flex-grow'>
                 <div>
-                    <p className='max-lg:text-sm text-justify indent-8 max-xl:lg:my-32 xl:my-20'>
+                    <p className='max-lg:text-sm text-2xl text-justify indent-8 max-xl:lg:my-32 xl:my-20'>
                         O câncer de pele, no Brasil, corresponde a 33% de todos os diagnósticos da doença, sendo a principal causa a exposição excessiva ao sol. Estudos exploram diferentes aspectos da exposição ao sol e do uso do protetor solar, tendo como resultado uma quantidade significativa de pessoas que fazem o uso incorreto do protetor solar; Não o utilizando pelo simples fato de esquecerem ou não saberem como funciona o uso e a ação da proteção solar.
                     </p>
                 </div>
 
                 <div className='block max-lg:block text-balance'>
-                    <div className='flex justify-center my-8'>
+                    <div className='flex justify-center my-2'>
                         <img src={boy} alt="" className='lg:hidden max-lg:size-42' />
                     </div>
                     <div className='flex justify-around'>
                         <div className='max-xl:text-sm lg:text-2xl'>
-                            <h3 className='max-xl:text-xl lg:text-3xl mb-6 font-bold'>Artigos referenciais:</h3>
+                            <h3 className='max-xl:text-xl lg:text-2xl mb-6 font-bold'>Artigos referenciais:</h3>
                             <p className='break-words'>https://periodicos.puc-campinas.edu.br/cienciasmedicas/article/view/1050</p>
                             <p className='my-4 break-all'>https://ojs.brazilianjournals.com.br/ojs/index.php/BRJD/article/view/21841</p>
                             <p className='mb-5 break-words'>https://sea.ufr.edu.br/index.php/SEA/article/view/1786</p>
                         </div>
-                        <img src={boy} alt="" className='max-lg:hidden size-80 object-right' />
+                        <img src={boy} alt="" className='max-lg:hidden size-80 object-right ' />
                     </div>
                 </div>
             </section>
