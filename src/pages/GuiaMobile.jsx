@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import Header2 from './Header2';
 import red from '/solvermei.svg';
-import yout from '/youtube.svg';
 import jogo from '/volei.png';
 
 export function GuiaMobile() {
@@ -34,13 +33,16 @@ export function GuiaMobile() {
               <Link to='/Referencias'>Referências</Link>
             </li>
             <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'>
+              <Link to='/Jogo'>Jogo</Link>
+            </li>
+            <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'>
               <Link to='/Equipe'>Equipe</Link>
             </li>
           </div>
         </header>
 
         <section className='lg:flex lg:mx-10 items-center'>
-          <div className='leading-normal text-dark-blue text-pretty text-justify max-xl:mx-16 text-sm flex flex-col space-y-2 lg:text-26 lg:w-2/4 xl:mx-16'>
+          <div className='leading-normal text-dark-blue text-pretty text-justify max-xl:mx-16 text-sm flex flex-col space-y-2 lg:text-26 lg:w-2/4 xl:pr-36 xl:ml-24 '>
             <p>1. Cadastre-se no aplicativo, colocando suas informações e selecionando suas preferências.</p>
             <p>2. Ligue o Bluetooth do seu celular.</p>
             <p>3. Após isso é só aguardar o aviso do SunTech para a reaplicação e recomendação do seu protetor solar.</p>
@@ -48,9 +50,9 @@ export function GuiaMobile() {
             <p>5. Agora você pode guardar seus itens e aproveitar a praia!</p>
           </div>
 
-          <div className='flex flex-col items-center lg:flex items-center'>
-            <img className='sm:size-48 md:mr-8 max-sm:size-20 self-end max-sm:mr-16' src={jogo} alt="" />
-            <img className='lg:w-740 lg:h-470 max-sm:w-375 max-sm:h-225 mb-4' src={yout} alt="" /> {/* Margem abaixo do vídeo */}
+          <div className='flex flex-col items-center lg:flex items-center mt-8'>
+            <img className='sm:size-44 md:mr-8 max-sm:size-20 self-end max-sm:mr-16' src={jogo} alt="" />
+            <iframe className='xl:ml-10 rounded-3xl' width="700" height="400" src="https://www.youtube.com/embed/xdhxtL8wt5o?si=BWSV5fYViNR0ST-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </section>
       </section>

@@ -32,12 +32,15 @@ export function ReferenciasMobile() {
                         <Link to='/Referencias'>Referências</Link>
                     </li>
                     <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'>
+                        <Link to='/Jogo'>Jogo</Link>
+                    </li>
+                    <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'>
                         <Link to='/Equipe'>Equipe</Link>
                     </li>
                 </div>
             </header>
 
-            <section className='mx-6 lg:mx-40 xl:text-3xl flex-grow'>
+            <section className='mx-6 lg:mx-96 xl:text-3xl flex-grow'>
                 <div>
                     <p className='max-lg:text-sm text-2xl text-justify indent-8 max-xl:lg:my-32 xl:my-20'>
                         O câncer de pele, no Brasil, corresponde a 33% de todos os diagnósticos da doença, sendo a principal causa a exposição excessiva ao sol. Estudos exploram diferentes aspectos da exposição ao sol e do uso do protetor solar, tendo como resultado uma quantidade significativa de pessoas que fazem o uso incorreto do protetor solar; Não o utilizando pelo simples fato de esquecerem ou não saberem como funciona o uso e a ação da proteção solar.

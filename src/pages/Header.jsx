@@ -43,6 +43,12 @@ export default function Header() {
                                 EQUIPE
                             </a>
                         </li>
+
+                        <li>
+                            <a href="/Jogo" className="block text-white py-2 px-4 xl:ml-0 text-right">
+                                JOGO
+                            </a>
+                        </li>
                         <li>
                             <a href="/Referencias" className="block text-white py-2 px-4 xl:ml-0 text-right">
                                 REFERÊNCIAS
@@ -51,10 +57,6 @@ export default function Header() {
                     </ul>
                 </nav>
             </div>
-
-
-
-
         </header>
     );
 }

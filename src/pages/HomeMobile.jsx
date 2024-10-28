@@ -52,6 +52,7 @@ export function HomeMobile() {
                         <Link to='/Guia'>Guia</Link>
                         <Link to='/Pecas'>Peças</Link>
                         <Link to='/Referencias'>Referências</Link>
+                        <Link to='/Jogo'>Jogo</Link>
                         <Link to='/Equipe'>Equipe</Link>
                     </div>
 

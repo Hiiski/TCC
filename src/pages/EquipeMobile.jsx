@@ -32,6 +32,7 @@ export function EquipeMobile() {
                     <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'><Link to='/Guia'>Guia</Link></li>
                     <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'><Link to='/Pecas'>Peças</Link></li>
                     <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'><Link to='/Referencias'>Referências</Link></li>
+                    <li className='decoration-2 underline underline-offset-8 uppercase underline hover:decoration-dark-red'><Link to='/Jogo'>Jogo</Link></li>
                     <li className='decoration-2 underline underline-offset-8 uppercase underline decoration-dark-red'><Link to='/Equipe'>Equipe</Link></li>
                 </div>
             </header>

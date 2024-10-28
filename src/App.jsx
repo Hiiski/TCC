@@ -5,6 +5,8 @@ import { GuiaMobile } from './pages/GuiaMobile'
 import { PeçasMobile } from './pages/PeçasMobile'
 import { ReferenciasMobile } from './pages/ReferenciasMobile'
 import { EquipeMobile } from './pages/EquipeMobile'
+import { Jogo } from './pages/Jogo'
+
 
 
 const router = createBrowserRouter([
@@ -28,6 +30,10 @@ const router = createBrowserRouter([
     {
       path: "Equipe",
       element: <EquipeMobile />,
+    },
+    {
+      path: "Jogo",
+      element: <Jogo />,
     },
 ])
 
