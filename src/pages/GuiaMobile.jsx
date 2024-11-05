@@ -52,7 +52,7 @@ export function GuiaMobile() {
 
           <div className='flex flex-col items-center lg:flex items-center mt-8'>
             <img className='sm:size-44 md:mr-8 max-sm:size-20 self-end max-sm:mr-16' src={jogo} alt="" />
-            <iframe className='xl:ml-10 rounded-3xl' width="700" height="400" src="https://www.youtube.com/embed/xdhxtL8wt5o?si=BWSV5fYViNR0ST-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe className='xl:ml-10 rounded-3xl max-xl:' width="700" height="400" src="https://www.youtube.com/embed/05UXpKdw1nI" title="Guia de uso - SunTech" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </section>
       </section>

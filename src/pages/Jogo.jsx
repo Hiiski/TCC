@@ -40,7 +40,7 @@ export function Jogo() {
             </header>
 
             <section className='lg:flex items-center justify-center mt-16'>
-                    <iframe className='xl:ml-10 rounded-3xl' width="980" height="600" src="https://www.youtube.com/embed/xdhxtL8wt5o?si=BWSV5fYViNR0ST-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe className='xl:ml-10 rounded-3xl' width="980" height="600" src="https://www.youtube.com/embed/t1WW8X8LsWM" title="SunTech Adventure" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </section>
 
             <div className='flex justify-center bg-dark-red mt-10 lg:absolute inset-x-0 bottom-0'>
